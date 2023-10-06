@@ -1,5 +1,5 @@
-# An Booking App
-It is a widely recognized online travel agency and accommodation booking platform that connects travelers with a vast selection of lodging options around the world. All the brand names and data are anonimus becuse this connected to development database to showcase as a portfolio
+# A Booking App
+It is a widely recognized online travel agency and accommodation booking platform that connects travelers with a vast selection of lodging options around the world. All the brand names and data are anonymous because this is connected to the development database to showcase as a portfolio
 
 ## Use these credentials to review the app
 - User
