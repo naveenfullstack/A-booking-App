@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Take your longest vacation yet",
+      "bgimage": "/",
+      "image": "https://q-xx.bstatic.com/xdata/images/xphoto/500x500/220031205.jpeg?k=bf9841e8ba89dfdf92e02d45e45dc89fcca2d981b7c74ad57d3ecf6ba64ba1c2&o=",
+      "description": "Browse properties offering long-term stays, many at reduced monthly rates.",
+      "buttontext": "Find a stay",
+      "Url": "/"
+    },
+    {
+        "id": 2,
+        "title": "Save 15% with Late Escape Deals",
+        "bgimage": "https://r-xx.bstatic.com/xdata/images/xphoto/714x300/261387541.jpeg?k=80d1571cedd0a363b9d9b78207914af9b1490c6a859cacd8dc090c866d1bbc94&o=",
+        "image": "/",
+        "description": "Explore thousands of destinations worldwide and save 15% or more",
+        "buttontext": "Find Late Escape Deals",
+        "Url": "/"
+      }
+  ]

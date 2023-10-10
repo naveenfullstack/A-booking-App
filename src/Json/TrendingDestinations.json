@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Ella",
+    "image": "https://cf.bstatic.com/xdata/images/city/600x600/685291.jpg?k=df198931295a3a24c278b32556c0779cd74e95a239489a7fe98d89eb2aed72ee&o=",
+    "Url": "/"
+  },
+  {
+    "id": 2,
+    "title": "Kandy",
+    "image": "https://cf.bstatic.com/xdata/images/city/600x600/685330.jpg?k=ee4ac422e47649d2d04a9759dc81fa51f138f477796a8043557e864517ae6f5f&o=",
+    "Url": "/"
+  },
+  {
+    "id": 3,
+    "title": "Sigiriya",
+    "image": "https://cf.bstatic.com/xdata/images/city/600x600/685346.jpg?k=41e671cf24ce46a65ee6cc887bbc7225b0fd13177809e4b1add14f4f46ef1436&o=",
+    "Url": "/"
+  },
+  {
+    "id": 4,
+    "title": "Nuwara Eliya",
+    "image": "https://cf.bstatic.com/xdata/images/city/600x600/685389.jpg?k=b2ee6ea5ea52888fac4782d1c7959f9aa2572f382ff25a06418b53e735c71e80&o=",
+    "Url": "/"
+  },
+  {
+    "id": 5,
+    "title": "Colombo",
+    "image": "https://cf.bstatic.com/xdata/images/city/600x600/685293.jpg?k=799ffc96a5a78c6ed25a9f622dd64617e54e27219c54a828d1830cb3055560db&o=",
+    "Url": "/"
+  }
+]

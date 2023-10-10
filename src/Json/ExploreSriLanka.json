@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Nuwara Eliya",
+    "propeties": "727",
+    "image": "https://r-xx.bstatic.com/xdata/images/city/170x136/685291.jpg?k=df198931295a3a24c278b32556c0779cd74e95a239489a7fe98d89eb2aed72ee&o=",
+    "Url": "/"
+  },
+  {
+    "id": 2,
+    "title": "Colombo",
+    "propeties": "708",
+    "image": "https://q-xx.bstatic.com/xdata/images/city/170x136/685389.jpg?k=b2ee6ea5ea52888fac4782d1c7959f9aa2572f382ff25a06418b53e735c71e80&o=",
+    "Url": "/"
+  },
+  {
+    "id": 3,
+    "title": "Kandy",
+    "propeties": "1365",
+    "image": "https://r-xx.bstatic.com/xdata/images/city/170x136/685330.jpg?k=ee4ac422e47649d2d04a9759dc81fa51f138f477796a8043557e864517ae6f5f&o=",
+    "Url": "/"
+  },
+  {
+    "id": 4,
+    "title": "Ella",
+    "propeties": "757",
+    "image": "https://r-xx.bstatic.com/xdata/images/city/170x136/942899.jpg?k=5e04d4c2e1b37f8720fab29b9a4e7c986f3c7e2d1863d7d7f07658e9e2a28dae&o=",
+    "Url": "/"
+  },
+  {
+    "id": 5,
+    "title": "Negombo",
+    "propeties": "767",
+    "image": "https://q-xx.bstatic.com/xdata/images/city/170x136/651429.jpg?k=5609985224ad7e86e4ffd3b8bc104a43f9ad84f455b24829d88cf59036439180&o=",
+    "Url": "/"
+  },
+  {
+    "id": 6,
+    "title": "Galle",
+    "propeties": "971",
+    "image": "https://q-xx.bstatic.com/xdata/images/city/170x136/685302.jpg?k=0713219d887bc5ff423f547eaf1d36aa2363a45f3f751610f7f5e553cb233dda&o=",
+    "Url": "/"
+  },
+  {
+    "id": 7,
+    "title": "Trincomalee",
+    "propeties": "971",
+    "image": "https://r-xx.bstatic.com/xdata/images/city/170x136/685314.jpg?k=bf4208a5dc5dc66bb67a9ffc9f151924fa46223805152c48bd3262f3a010d626&o=",
+    "Url": "/"
+  },
+  {
+    "id": 8,
+    "title": "Mirissa",
+    "propeties": "603",
+    "image": "https://q-xx.bstatic.com/xdata/images/city/170x136/685322.jpg?k=e29ccaeca3576b692e39f01d613b237ad0dd03a2a886b62db77c11b8dd3379ce&o=",
+    "Url": "/"
+  },
+  {
+    "id": 9,
+    "title": "Hikkaduwa",
+    "propeties": "977",
+    "image": "https://q-xx.bstatic.com/xdata/images/city/170x136/651429.jpg?k=5609985224ad7e86e4ffd3b8bc104a43f9ad84f455b24829d88cf59036439180&o=",
+    "Url": "/"
+  }
+]
