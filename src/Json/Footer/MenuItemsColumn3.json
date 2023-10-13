@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Unique places to stay",
+      "Url": "/"
+    },
+    {
+      "id": 2,
+      "name": "All destinations",
+      "Url": "/"
+    },
+    {
+      "id": 3,
+      "name": "All flight destinations",
+      "Url": "/"
+    },
+    {
+      "id": 4,
+      "name": "All car hire locations",
+      "Url": "/"
+    },
+    {
+      "id": 5,
+      "name": "Discover",
+      "Url": "/"
+    },
+    {
+        "id": 6,
+        "name": "Reviews",
+        "Url": "/"
+      },
+    {
+        "id": 7,
+        "name": "Discover monthly stays",
+        "Url": "/"
+      },
+      {
+        "id": 8,
+        "name": "Unpacked: Travel articles",
+        "Url": "/"
+      },
+      {
+        "id": 9,
+        "name": "Seasonal and holiday deals",
+        "Url": "/"
+      },
+      {
+          "id": 10,
+          "name": "Traveller Review Awards",
+          "Url": "/"
+        }
+  ]

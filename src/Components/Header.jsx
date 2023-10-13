@@ -38,23 +38,23 @@ export default function Header() {
       <div className="bg-primary text-white flex justify-center items-center">
         <div className="w-full max-w-default flex py-4 items-center px-4">
           <div className="w-1/5">
-            <p className="text-[1.5rem] font-semibold">An Booking App</p>
+            <p className="text-[1.5rem] font-semibold">A Booking App</p>
           </div>
           <div className="w-4/5 flex justify-end items-center">
             <div className="flex space-x-default items-center">
-              <p className="capitalize text-header font-medium">LKR</p>
+              <p className="capitalize text-subtitle2 font-medium">LKR</p>
               <img
                 className="rounded-full w-[2rem] h-[2rem]"
                 alt="profile"
                 src="https://flagcdn.com/w320/um.png"
               />
-              <p className="capitalize text-header font-medium">
+              <p className="capitalize text-subtitle2 font-medium">
                 list your property
               </p>
-              <button className="bg-white text-primary py-2 px-4 rounded-default font-medium text-header">
+              <button className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2">
                 Register
               </button>
-              <button className="bg-white text-primary py-2 px-4 rounded-default font-medium text-header">
+              <button onClick={() => navigate("/signin")} className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2">
                 Sign in
               </button>
               {/* <div className="flex items-center space-x-[8px]">

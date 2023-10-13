@@ -10,10 +10,12 @@ module.exports = {
       colors: {
         primary: "#0E4B5E",
         secondary: "#474747",
+        search_bg: "#ffb700",
         button_hover: "#176279",
       },
       maxWidth: {
         default: "1110px",
+        login: "450px",
       },
       spacing: {
         default: "1rem",
@@ -27,7 +29,9 @@ module.exports = {
         MailTitle: '3rem',
         subtitle: '0.7rem',
         subtitle2: '0.8rem',
+        subtitle3: '0.9rem',
         title: '1.5rem',
+        title2: '1.3rem',
       },
       fontFamily: {
         'sans': ['Avenir Next', 'BlinkMacSystemFont', '-apple-system', "Segoe UI", 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],

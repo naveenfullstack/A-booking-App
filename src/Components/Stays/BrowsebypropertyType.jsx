@@ -38,7 +38,10 @@ export default function BrowsebypropertyType() {
   return (
     <div className="text-black flex justify-center items-center pt-8">
       <div className="w-full max-w-default px-4">
-        <p className="text-title font-semibold pb-4">Browse by property type</p>
+        <p className="text-title font-semibold">Browse by property type</p>
+        <p className="text-secondary text-header pb-4">
+          Let's find best property type that match your choice
+        </p>
         <div>
           <Swiper
             onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -71,7 +74,7 @@ export default function BrowsebypropertyType() {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="z-10 lg:flex md:hidden sm:hidden justify-end absolute w-full max-w-default top-[68rem] pr-4 ">
+          <div className="z-10 lg:flex md:hidden sm:hidden justify-end absolute w-full max-w-default top-[95.5rem] pr-4 ">
             <div className="w-1/2 flex justify-start">
               {activeSlide > 0 && ( // Show if not on the first slide
                 <div

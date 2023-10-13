@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Dehiwala",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016420.jpg?k=65c270c7297df4cd33d1f0b62a3fde3c511049d312620dd52b7f5915b4053143&o=",
+    "km": "8",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 2,
+    "title": "Mount Lavinia",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016378.jpg?k=f37ad1c8887bf4d80488c90eebe2490976c8331a11976f73d4847bbaaae4bfcd&o=",
+    "km": "9",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 3,
+    "title": "Wattala",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016353.jpg?k=232ef71e6c3a553cb601e631add2548814977cb28ec5e3af07501d1f25795fb9&o=",
+    "km": "10",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 4,
+    "title": "Panadura",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016373.jpg?k=175cc16d1111aed28b462b4302f1e869b0e8930af10e51dbd29459ea3d9d759b&o=",
+    "km": "21",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 5,
+    "title": "Katunayake",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016394.jpg?k=c3b5e970cd544f7463dec0adb2de34d162546f97a488fa90c0c441e0b6cde589&o=",
+    "km": "30",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 6,
+    "title": "Kaluthara",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016398.jpg?k=6069bbc55af2e1ae6b4d0278dbac2b8f2575ce86a96401f12099d5c0e62c8a01&o=",
+    "km": "36",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 7,
+    "title": "Negambo",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016377.jpg?k=44727d07e844af159991119429840bb935b484d6c95ac250cd0b36e4f96be16e&o=",
+    "km": "38",
+    "type": "beach",
+    "Url": "/"
+  },
+  {
+    "id": 8,
+    "title": "Pinnawala",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016370.jpg?k=cb899a5a48cd8dfd5a252b12b52821af36bb5b3bce4f186221597b3cdb43e0db&o=",
+    "km": "69",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 9,
+    "title": "Hatton",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016405.jpg?k=b053e2f2b5146d3d96e5214c0056d208ff7cdee1a49b5d1b6fd93077b3aa34e8&o=",
+    "km": "75",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 10,
+    "title": "Nuwara Eliya",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016375.jpg?k=54a7a1a0f715507530da605ee06b2fa65940fee1c8049c44586fd1c261e9b48b&o=",
+    "km": "96",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 11,
+    "title": "Haputhale",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016357.jpg?k=bb6c0eaf8051c23f745d4f927704e8247ffedb5dda5f031e8f09d5ce89b62b56&o=",
+    "km": "113",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 12,
+    "title": "Bandarawela",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016427.jpg?k=83634d338d6ee024b9d550b24167cfe223b7676832f4235bc308092b7e68ecb4&o=",
+    "km": "119",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 13,
+    "title": "Ella",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016413.jpg?k=577757282eb8a60c94c2a54f811f11e96bda23d9b5569e232de29173f51a1f12&o=",
+    "km": "125",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 14,
+    "title": "Sigiriya",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016363.jpg?k=34b5e2bdb2c7282901c63de0f59e53901391ba2b72f5768ad9064ac7ca1b0adf&o=",
+    "km": "149",
+    "type": "outdoor",
+    "Url": "/"
+  },
+  {
+    "id": 16,
+    "title": "Kandy",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016397.jpg?k=46098c32e07b583ec666ead1812298460c7eeb2a241389745014050d18ceb240&o=",
+    "km": "91",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 17,
+    "title": "Galle",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016411.jpg?k=5da9d1ab17ad7f07a73618982b94d2a28077fbbdd646591cd0a459b93a68110e&o=",
+    "km": "135",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 18,
+    "title": "Dambulla",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016421.jpg?k=624a48f66a715c64ae9fad99959b9ec34adc18c5d070229e7b42e07dd3acf2e3&o=",
+    "km": "135",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 19,
+    "title": "Anuradhapura",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016430.jpg?k=562c2a3127f5559b05744a61bb76b9359d5315de681575f27a7d0a55990ae306&o=",
+    "km": "165",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 20,
+    "title": "Polonnaruwa",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016368.jpg?k=55fba2432f92d29c607a0374f01352942aac65ba1e8eae0e6fa7c828167d6656&o=",
+    "km": "9",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 21,
+    "title": "Jaffna",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016402.jpg?k=faa94a52913f49e1d2b6bf0ce66a6138a0a5a769b52684f0ed87707fe1a5d0dc&o=",
+    "km": "308",
+    "type": "city",
+    "Url": "/"
+  },
+  {
+    "id": 22,
+    "title": "Kitulgala",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016392.jpg?k=3f04393f5bb77515fefea6ce83c9dda7e69fc55a94578a840ce37827e9901bb0&o=",
+    "km": "56",
+    "type": "romance",
+    "Url": "/"
+  },
+  {
+    "id": 23,
+    "title": "Digana",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016419.jpg?k=beca8d49d7d3995e1354e6633832f5cce6233522ed417c6fdd7f2826a9c69afe&o=",
+    "km": "105",
+    "type": "romance",
+    "Url": "/"
+  },
+  {
+    "id": 24,
+    "title": "Habarana",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016408.jpg?k=40600efad251bbb49f5c1fbdb46780bdb7b7f6ee7e762f58cf36455fc50f0c59&o=",
+    "km": "157",
+    "type": "romance",
+    "Url": "/"
+  },
+  {
+    "id": 25,
+    "title": "Katharagama",
+    "image": "https://cf.bstatic.com/xdata/images/xphoto/300x240/140016396.jpg?k=e8177438123703ef694c77f2baa2dad8721da255781226cb1239365f6ea3791b&o=",
+    "km": "9",
+    "type": "romance",
+    "Url": "/"
+  }
+]

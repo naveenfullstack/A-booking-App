@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile version",
+    "Url": "/"
+  },
+  {
+    "id": 2,
+    "name": "Your Account",
+
+    "Url": "/"
+  },
+  {
+    "id": 3,
+    "name": "Make changes online to your booking",
+    "Url": "/"
+  },
+  {
+    "id": 4,
+    "name": "Customer Service Help",
+    "Url": "/"
+  },
+  {
+    "id": 5,
+    "name": "Become an affiliate",
+    "Url": "/"
+  }
+]

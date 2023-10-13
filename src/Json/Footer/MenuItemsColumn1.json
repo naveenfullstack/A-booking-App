@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Countries",
+      "Url": "/"
+    },
+    {
+      "id": 2,
+      "name": "Regions",
+      "Url": "/"
+    },
+    {
+      "id": 3,
+      "name": "Cities",
+      "Url": "/"
+    },
+    {
+      "id": 4,
+      "name": "Districts",
+      "Url": "/"
+    },
+    {
+      "id": 5,
+      "name": "Airports",
+      "Url": "/"
+    },
+    {
+        "id": 6,
+        "name": "Hotels",
+        "Url": "/"
+      },
+      {
+        "id": 7,
+        "name": "Places of interest",
+        "Url": "/"
+      }
+  ]

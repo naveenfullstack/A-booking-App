@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "Coronavirus (COVID-19) FAQs",
+      "Url": "/"
+    },
+    {
+      "id": 2,
+      "name": "About Booking.com",
+      "Url": "/"
+    },
+    {
+      "id": 3,
+      "name": "Customer Service help",
+      "Url": "/"
+    },
+    {
+      "id": 4,
+      "name": "Partner help",
+      "Url": "/"
+    },
+    {
+      "id": 5,
+      "name": "Careers",
+      "Url": "/"
+    },
+    {
+        "id": 6,
+        "name": "Sustainability",
+        "Url": "/"
+      },
+      {
+        "id": 7,
+        "name": "Press centre",
+        "Url": "/"
+      },
+      {
+        "id": 8,
+        "name": "Safety resource centre",
+        "Url": "/"
+      },
+      {
+        "id": 9,
+        "name": "Investor relations",
+        "Url": "/"
+      },
+      {
+        "id": 10,
+        "name": "Terms & Conditions",
+        "Url": "/"
+      },
+      {
+        "id": 11,
+        "name": "Partner dispute",
+        "Url": "/"
+      },
+      {
+        "id": 12,
+        "name": "How we work",
+        "Url": "/"
+      },
+      {
+        "id": 13,
+        "name": "Privacy & Cookie Statement",
+        "Url": "/"
+      },
+      {
+        "id": 14,
+        "name": "MSA Statement",
+        "Url": "/"
+      },
+      {
+        "id": 15,
+        "name": "Corporate contact",
+        "Url": "/"
+      },
+      {
+        "id": 16,
+        "name": "Content guidelines",
+        "Url": "/"
+      }
+  ]

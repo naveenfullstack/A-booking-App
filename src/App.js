@@ -12,6 +12,7 @@ import "./App.css";
 //Compornents and Pages
 import Home from "./Pages/Home";
 import Error404 from "./Pages/Error404";
+import Signin from "./Components/Auth/Signin";
 
 export default function App() {
   // Initialize userData to an empty object to avoid undefined errors
@@ -51,6 +52,7 @@ export default function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/signin" element={<Signin />} />
           <Route exact path="*" element={<Error404 />} />
           <Route element={<ProtectedRoute />}>
             <Route path="/dashboard" element={<Home />} />
