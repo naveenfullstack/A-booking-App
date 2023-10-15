@@ -1,10 +1,14 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { LuBedDouble } from "react-icons/lu";
+import {useIp} from "../Context/IpContext"
 
 export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
+  const { ipAddress } = useIp();
+
+  const countryCode = ipAddress ? ipAddress.countryCode.toLowerCase() : "us";
 
   const menuItems = [
     {
@@ -42,11 +46,11 @@ export default function Header() {
           </div>
           <div className="w-4/5 flex justify-end items-center">
             <div className="flex space-x-default items-center">
-              <p className="capitalize text-subtitle2 font-medium">LKR</p>
+              <p className="capitalize text-subtitle2 font-medium">USD</p>
               <img
-                className="rounded-full w-[2rem] h-[2rem]"
+                className="h-[1.3rem]"
                 alt="profile"
-                src="https://flagcdn.com/w320/um.png"
+                src={`https://flagcdn.com/w320/${countryCode}.png`}
               />
               <p className="capitalize text-subtitle2 font-medium">
                 list your property

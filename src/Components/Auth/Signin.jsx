@@ -3,9 +3,31 @@ import { FcGoogle } from "react-icons/fc";
 import { BsApple } from "react-icons/bs";
 import { BiArrowBack } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
+import "../../Firebase/firebase";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 export default function Signin() {
   const navigate = useNavigate();
+
+  const loginWithGoogle = () => {
+    const auth = getAuth();
+    const provider = new GoogleAuthProvider();
+
+    signInWithPopup(auth, provider)
+      .then((userCred) => {
+        console.log(userCred);
+      })
+      .catch((error) => {
+        if (error.code === "auth/cancelled-popup-request") {
+          // User cancelled the login request
+          console.log("Google login request was cancelled.");
+        } else {
+          // Handle other errors
+          console.error("Error signing in with Google:", error);
+        }
+      });
+  };
+
   return (
     <div className="text-black flex justify-center items-center h-screen">
       <div
@@ -43,7 +65,10 @@ export default function Signin() {
             <div className="h-[1px] bg-black/[.10] w-full"></div>
           </div>
           <div className="flex justify-center space-x-4">
-            <div className="border p-4 rounded-default">
+            <div
+              className="border p-4 rounded-default"
+              onClick={loginWithGoogle}
+            >
               <FcGoogle className="text-[2rem]" />
             </div>
             <div className="border p-4 rounded-default">
