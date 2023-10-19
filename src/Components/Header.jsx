@@ -1,12 +1,16 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { LuBedDouble } from "react-icons/lu";
-import {useIp} from "../Context/IpContext"
+import { useIp } from "../Context/IpContext";
 
 export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
   const { ipAddress } = useIp();
+
+  const userDataString = localStorage.getItem("userData");
+  const userData = userDataString ? JSON.parse(userDataString) : {};
+  const Token = userData.accessToken;
 
   const countryCode = ipAddress ? ipAddress.countryCode.toLowerCase() : "us";
 
@@ -24,12 +28,6 @@ export default function Header() {
       Url: "/announcements",
     },
     {
-      id: 3,
-      name: "Attractions",
-      icon: <LuBedDouble />,
-      Url: "/task-management",
-    },
-    {
       id: 4,
       name: "Airport Taxis",
       icon: <LuBedDouble />,
@@ -37,41 +35,69 @@ export default function Header() {
     },
   ];
 
+  const logout = () => {
+    localStorage.removeItem("userData");
+    window.location.href = "/";
+  };
+
   return (
     <div>
       <div className="bg-primary text-white flex justify-center items-center">
         <div className="w-full max-w-default flex py-4 items-center px-4">
           <div className="w-1/5">
-            <p className="text-[1.5rem] font-semibold">A Booking App</p>
+            <p className="lg:text-[1.5rem] sm:text-[1rem] md:text-[1rem] font-semibold">A Booking App</p>
           </div>
           <div className="w-4/5 flex justify-end items-center">
             <div className="flex space-x-default items-center">
-              <p className="capitalize text-subtitle2 font-medium">USD</p>
+              <p className="capitalize text-subtitle2 font-medium sm:hidden md:hidden lg:block">USD</p>
               <img
-                className="h-[1.3rem]"
+                className="h-[1.3rem] sm:hidden md:hidden lg:block"
                 alt="profile"
                 src={`https://flagcdn.com/w320/${countryCode}.png`}
               />
-              <p className="capitalize text-subtitle2 font-medium">
+              <p className="capitalize text-subtitle2 font-medium sm:hidden md:hidden lg:block">
                 list your property
               </p>
-              <button className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2">
-                Register
-              </button>
-              <button onClick={() => navigate("/signin")} className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2">
-                Sign in
-              </button>
-              {/* <div className="flex items-center space-x-[8px]">
-                <img
-                  className="rounded-full w-[3rem]"
-                  alt="profile"
-                  src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
-                />
+              {Token ? (
                 <div>
-                  <p className="font-medium text-header"> Naveen Dissanayake</p>
-                  <p className="text-subtitle">contact@naveenportfolio.site</p>
+                  {" "}
+                  <div
+                    onClick={logout}
+                    className="flex items-center space-x-[8px] cursor-pointer"
+                  >
+                    <img
+                      className="rounded-full w-[2.2rem]"
+                      alt="profile"
+                      src={
+                        userData.profileImage ||
+                        `https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png`
+                      }
+                    />
+                    <div>
+                      <p className="font-medium text-header">
+                        {" "}
+                        {userData.firstname} {userData.lastname}
+                      </p>
+                      <p className="text-subtitle">{userData.email}</p>
+                    </div>
+                  </div>
                 </div>
-              </div> */}
+              ) : (
+                <div className="space-x-4">
+                  <button
+                    onClick={() => navigate("/signin")}
+                    className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2"
+                  >
+                    Register
+                  </button>
+                  <button
+                    onClick={() => navigate("/signin")}
+                    className="bg-white text-primary py-2 px-4 rounded-default font-medium text-subtitle2"
+                  >
+                    Sign in
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -85,7 +111,9 @@ export default function Header() {
                 key={item.id}
                 onClick={() => navigate(item.Url)}
                 className={`flex items-center p-2 px-5 rounded-header_button space-x-2 text-default hover:bg-button_hover ${
-                  location.pathname === item.Url ? "border border-white/[.40] bg-button_hover" : ""
+                  location.pathname === item.Url
+                    ? "border border-white/[.40] bg-button_hover"
+                    : ""
                 }`}
                 title={item.name}
               >

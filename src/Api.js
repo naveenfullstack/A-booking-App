@@ -8,9 +8,11 @@ const requests = {
   //API Urls
   Domain : process.env.REACT_APP_DOMAIN,
   ForgetPassword : `${Domain}/mediax/auth/forgotpassword`,
-  login : `${Domain}/mediax/auth/login`,
-  signup : `${Domain}/mediax/auth/signup`,
-  GetIp : `${Domain}/booking/auth/get-ip-details`
+  login : `${Domain}/booking/auth/login`,
+  signup : `${Domain}/booking/auth/signup`,
+  GetIp : `${Domain}/booking/auth/get-ip-details`,
+  googleAuth : `${Domain}/booking/auth/thirdparty/signup/google`,
+  checkUSer : `${Domain}/booking/auth/checkuser`
 };
 
 export default requests;

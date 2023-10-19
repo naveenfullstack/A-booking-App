@@ -11,7 +11,7 @@ export default function StaysSearch() {
   const [filterVisible, setFilterVisible] = useState(false);
   const [checkInDate, setCheckInDate] = useState(null);
   const [checkOutDate, setCheckOutDate] = useState(null);
-  const [adults, setAdults] = useState(2); 
+  const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(0);
   const [rooms, setRooms] = useState(1);
   const popupRef = useRef();
@@ -51,7 +51,10 @@ export default function StaysSearch() {
     if (popupRef.current && !popupRef.current.contains(event.target)) {
       closePopup();
     }
-    if (filterPopupRef.current && !filterPopupRef.current.contains(event.target)) {
+    if (
+      filterPopupRef.current &&
+      !filterPopupRef.current.contains(event.target)
+    ) {
       closeFilterPopup();
     }
   };
@@ -102,7 +105,7 @@ export default function StaysSearch() {
     <div className="bg-primary flex justify-center text-white">
       <div className="max-w-default w-full px-4">
         <div className="py-10">
-          <p className="capitalize text-MailTitle font-semibold font-sans">
+          <p className="capitalize lg:text-MailTitle sm:text-[2rem] md:text-[2rem] font-semibold font-sans">
             Find your next stay
           </p>
           <p className="capitalize">
@@ -111,7 +114,7 @@ export default function StaysSearch() {
         </div>
 
         <div>
-          <div className="bg-search_bg p-1 text-black rounded-default flex space-x-1 items-center ">
+          <div className="bg-search_bg lg:p-1 sm:p-2 text-black rounded-default space-x-1 items-center sm:grid md:grid lg:flex grid-cols-1 sm:gap-2 md:gap-2 lg:gap-0">
             <div className="bg-white flex items-center space-x-2 p-3 w-full rounded-default w-full">
               <LuBedDouble className="text-title text-black/[.60]" />
               <input
@@ -188,21 +191,21 @@ export default function StaysSearch() {
               </div>
             </div>
 
-            <div className="bg-primary text-white rounded-default hover:bg-button_hover">
+            <div className="bg-primary text-white rounded-default hover:bg-button_hover text-center">
               <button className="p-3 px-5">Search</button>
             </div>
           </div>
+        </div>
 
-          <div className="pt-4 flex space-x-4 pb-10">
-            <div className="flex items-center space-x-2">
-              <input type="checkbox"></input>
-              <p>I'm looking for an entire home or apartment</p>
-            </div>
+        <div className="pt-4 flex space-x-4 pb-10">
+          <div className="flex items-center space-x-2">
+            <input type="checkbox"></input>
+            <p>I'm looking for an entire home or apartment</p>
+          </div>
 
-            <div className="flex items-center space-x-2">
-              <input type="checkbox"></input>
-              <p>I'm traveling for work</p>
-            </div>
+          <div className="flex items-center space-x-2">
+            <input type="checkbox"></input>
+            <p>I'm traveling for work</p>
           </div>
         </div>
       </div>

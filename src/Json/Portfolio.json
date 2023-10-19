@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "A Booking App",
+    "type": "Web Application",
+    "description": "It is a widely recognized online travel agency and accommodation booking platform that connects travelers with a vast selection of lodging options around the world.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React.js"
+      },
+      {
+        "id": 2,
+        "name": "Express.js"
+      },
+      {
+        "id": 3,
+        "name": "MongoDB"
+      },
+      {
+        "id": 4,
+        "name": "Figma"
+      }
+    ],
+    "website": "A-booking-App"
+  },
+  {
+    "id": 2,
+    "name": "MediaX",
+    "type": "Web Application",
+    "description": "It is a widely recognized online travel agency and accommodation booking platform that connects travelers with a vast selection of lodging options around the world.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React.js"
+      },
+      {
+        "id": 2,
+        "name": "Express.js"
+      },
+      {
+        "id": 3,
+        "name": "MongoDB"
+      },
+      {
+        "id": 4,
+        "name": "Figma"
+      }
+    ],
+    "website": "mediax"
+  },
+  {
+    "id": 3,
+    "name": "Employee Management System",
+    "type": "Web Application",
+    "description": "It is a widely recognized online travel agency and accommodation booking platform that connects travelers with a vast selection of lodging options around the world.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React.js"
+      },
+      {
+        "id": 2,
+        "name": "Express.js"
+      },
+      {
+        "id": 3,
+        "name": "MongoDB"
+      },
+      {
+        "id": 4,
+        "name": "Figma"
+      }
+    ],
+    "website": "ems"
+  }
+]
